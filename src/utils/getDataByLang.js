@@ -1,0 +1,1 @@
+export const getDataByLang =(lang, key, data)=> data?.[`${key}_${lang}`]
